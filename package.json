@@ -1,0 +1,22 @@
+{
+    "name": "theme-fairyfloss",
+    "displayName": "fairyfloss",
+    "description": "VSCode port of @sailorhg's fairyfloss theme https://sailorhg.github.io/fairyfloss/",
+    "version": "0.0.1",
+    "publisher": "deltabouche",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "fairyfloss",
+                "uiTheme": "vs-dark",
+                "path": "./themes/fairyfloss.tmTheme"
+            }
+        ]
+    }
+}
